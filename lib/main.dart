@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:serious_python/serious_python.dart';
 
 void main() {
+  SeriousPython.run('src/app.zip');
   runApp(const MyApp());
 }
 
